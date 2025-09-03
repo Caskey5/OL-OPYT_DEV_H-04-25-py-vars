@@ -39,13 +39,10 @@ studija, naziv studija, naziv sveučilišta
 student = "Ivan Ivić, 12345678901, ivan.ivic@gmail.com, 0975123456, 3.5, 2025, Računarske znanosti, Sveučilište u Zagrebu"
 
 # Opcija 2
-Jstudent_oib = "12345678901"
+student_oib = "12345678901"
 student_email = "ivan.ivic@gmail.com"
 student_phone = "0975123456"
 student_average_grade = 3.5
 student_enrollment_year = 2025
 student_study_program = "Računarske znanosti"
 student_university_name = "Sveučilište u Zagrebu"
-
-student_phone = int(student_phone)  # Pretvaranje stringa u integer
-print(student_phone + 1)
